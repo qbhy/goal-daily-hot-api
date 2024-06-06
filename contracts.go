@@ -7,4 +7,8 @@ type DailyHotAPI interface {
 	GetZhihuHotList() (*ZhihuResponse, error)
 	GetZhihuDailyRecommendations() (*ZhihuDailyResponse, error)
 	GetBaiduHotSearch() (*BaiduResponse, error)
+	GetToutiaoHotList() (*ToutiaoResponse, error)
+	GetQQNewsHotList() (*QQNewsResponse, error)
+	GetNeteaseNewsHotList() (*NeteaseNewsResponse, error)
+	GetThePaperHotList() (*ThePaperResponse, error)
 }
